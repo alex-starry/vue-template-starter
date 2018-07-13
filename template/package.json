@@ -1,0 +1,13 @@
+{
+  "name": "{{ name }}",
+  "version": "1.0.0",
+  "description": "{{ description }}",
+  "main": "index.js",
+  "scripts": {
+    "dev": "alex",
+    "build": "alex build",
+    "start": "alex start",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "author": "{{ author }}"
+}
